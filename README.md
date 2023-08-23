@@ -7,6 +7,7 @@ Monty 0.98 is a scripting language that is first compiled into monty byte codes 
 This is a language that contains specific instructions to manipulate data information (stacks or queues), where each instruction (called opcode) is sended per line. Files which contains Monty byte codes usually have the .m extension.
 
 Example (file.m):
+
     - $ cat file.m
     - # Pushing element to the stack
     - push 0

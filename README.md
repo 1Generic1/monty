@@ -31,7 +31,7 @@ Example (file.m):
 
 ## usage 
 
-- TO compile all files 
+TO compile all files 
 	$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 	$
 

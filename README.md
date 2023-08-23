@@ -32,8 +32,9 @@ Example (file.m):
 ## usage 
 
 TO compile all files 
-	$ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
-	$
+	
+        - $ gcc -Wall -Werror -Wextra -pedantic *.c -o monty
+	- $
 
 ## Technologies
 

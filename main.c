@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	int i;
 	FILE *file;
 	stack_t *stack = NULL;
-	size_t line_buf_size = INIT_LINE_BUF_SIZE;
+	size_t line_buf_size = INIT_LINE_BUF_SIZE; 
 
 	if (argc != 2)
 	{

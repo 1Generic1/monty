@@ -1,4 +1,4 @@
-#ifndef MONTY_H
+#ifndef MONTY_Hi
 #define MONTY_H
 #define _GNU_SOURCE
 #include <stdio.h>
@@ -34,13 +34,8 @@ void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
 extern instruction_t opcodes[];
-
-void push(stack_t **stack, unsigned int line_number);
-void pall(stack_t **stack, unsigned int line_number);
-void pint(stack_t **stack, unsigned int line_number);
 void pint(stack_t **stack, unsigned int line_number);
 int is_integer(char *str);
-int main(int argc, char *argv[]);
 void push(stack_t **stack, unsigned int line_number);
 void pall(stack_t **stack, unsigned int line_number);
 void initialize_opcodes(void);

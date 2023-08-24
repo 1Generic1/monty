@@ -3,6 +3,6 @@
 instruction_t opcodes[] = {
 {"push", push},
 {"pall", pall},
-/* ... other opcode definitions ...*/
+{"pint", pint},
 {NULL, NULL}
 };

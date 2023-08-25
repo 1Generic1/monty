@@ -9,7 +9,7 @@ instruction_t opcodes[] = {
 {"add", add},
 {"nop", nop},
 {"sub", sub},
-{"divv", divv},
+{"div", monty_div},
 {"mul", mul},
 {"mod", mod},
 {NULL, NULL}

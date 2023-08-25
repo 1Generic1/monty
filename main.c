@@ -66,6 +66,8 @@ int execute_bytecode_file(const char *filename)
 	while (fgets(line, line_buf_size, file) != NULL)
 	{
 		line_number++;
+		if (line[0] == '#')
+			continue;
 		opcode = strtok(line, " \t\n\b");
 		found = 0;
 		for (i = 0; opcodes[i].opcode != NULL; i++)

@@ -12,5 +12,6 @@ instruction_t opcodes[] = {
 {"div", monty_div},
 {"mul", mul},
 {"mod", mod},
+{"pchar", pchar},
 {NULL, NULL}
 };

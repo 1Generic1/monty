@@ -10,6 +10,11 @@ void pstr(stack_t **stack, unsigned int line_number)
 	stack_t *node = *stack;
 	(void)line_number;
 
+	if (node == NULL)
+	{
+		printf("\n");
+		return;
+	}
 	while (node != NULL && node->n != 0 && node->n >= 0 && node->n <= 127)
 	{
 		printf("%c", node->n);

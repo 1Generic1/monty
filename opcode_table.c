@@ -15,5 +15,6 @@ instruction_t opcodes[] = {
 {"pchar", pchar},
 {"pstr", pstr},
 {"rotl", rotl},
+{"rotr", rotr},
 {NULL, NULL}
 };
